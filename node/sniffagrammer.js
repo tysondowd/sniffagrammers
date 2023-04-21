@@ -2,15 +2,15 @@ const https = require('https');
 const fs = require('fs');
 
 // type can be 'tag' or 'user'
-const type = 'user'
+const type = 'tag'
 
 // if type is 'tag', the script will search for #orsifrancesco
 // if type is 'user', the script will search for @orsifrancesco
-const value = 'tysondowd'
+const value = 'phuket'
 
 // only for sniffagrammer.js
 // you can change the port of the server
-const port = 8080
+const port = 8082
 
 function checksumJs(str, seed = 0) {
   let h1 = 0xdeadbeef ^ seed, h2 = 0x41c6ce57 ^ seed;
