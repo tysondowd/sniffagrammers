@@ -6,7 +6,7 @@ const type = 'user'
 
 // if type is 'tag', the script will search for #orsifrancesco
 // if type is 'user', the script will search for @orsifrancesco
-const value = 'orsifrancesco'
+const value = 'tysondowd'
 
 // only for sniffagrammer.js
 // you can change the port of the server
